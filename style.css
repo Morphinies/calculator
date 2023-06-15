@@ -38,13 +38,17 @@ main {
   grid-template-rows: auto 1fr;
 }
 
-.res-line {
+.res-wrapper {
   height: 8rem;
   padding: 1rem;
   font-size: 2rem;
   text-align: right;
   border-radius: 4px;
   background-color: #fff;
+}
+
+#expression {
+  color: #ccc;
 }
 
 .keyboard {
